@@ -13,6 +13,7 @@ The no of odd pairs:6
 
 NB:https://www.hackerrank.com/challenges/sock-merchant/problem?h_l=interview&playlist_slugs%5B%5D=interview-preparation-kit&playlist_slugs%5B%5D=warmup
 program:
+*/
 #include <stdio.h>
 int temp[9]={0,0,0,0,0,0,0,0,0},arr[9]={10 ,20 ,20 ,10 ,10 ,30 ,50 ,10 ,20};
 int finddistict(int n,int pos);
