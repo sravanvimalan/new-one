@@ -31,8 +31,7 @@ program:
 int main()
 {
 	system("clear");
-	int n,n2,k=0;
-	int *ptr;
+	int n,n2,k=0,*ptr;
 	printf("enter the lim");
 	scanf("%d",&n2);
 	ptr=(int *)malloc(n2*sizeof(int));
