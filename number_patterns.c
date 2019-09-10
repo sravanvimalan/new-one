@@ -47,3 +47,26 @@ int main()
 		printf("\n");
 	}
 }
+/*
+54321
+4321
+321
+21
+1
+code for above pattern
+*/
+# include<stdio.h>
+int main()
+{
+	int n=5,r=5;
+	while(r>0)
+	{
+		for(int i=n;i>0;i--)
+		{
+			printf("%d",i);
+		}
+		printf("\n");
+		n--;
+		r--;
+	}
+}
