@@ -1,3 +1,3 @@
 # new-one
-Here  drop my daily doing programs. :)
+Here  dropping  my daily doing programs. :)
 
