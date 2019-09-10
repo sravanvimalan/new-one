@@ -1,4 +1,4 @@
-Given a number N. The task is to print series of asterisk(*) from 1 till N terms with increasing order and difference being 1.
+/*Given a number N. The task is to print series of asterisk(*) from 1 till N terms with increasing order and difference being 1.
 
 Input:
 The first line of the input is the number of testcases T. Each testcase contains only one value i.e. N.
@@ -26,6 +26,7 @@ Output:
 * ** *** **** ***** ******
 * **
 program:
+*/
 # include<stdio.h>
 # include<stdlib.h>
 int main()
