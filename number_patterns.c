@@ -70,3 +70,26 @@ int main()
 		r--;
 	}
 }
+/*
+54321
+5432
+543
+54
+5
+code for above pattern
+*/
+# include<stdio.h>
+int main()
+{
+	int n=5,r=1;
+	while(r<=5)
+	{
+		for(int i=n;i>=r;i--)
+		{
+			printf("%d",i);
+		}
+		r++;
+		printf("\n");
+
+	}
+}
