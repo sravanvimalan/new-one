@@ -328,3 +328,26 @@ int main()
 	}
     
 }
+/*
+1234567
+12345
+123
+1
+code for above pattern
+*/
+# include<stdio.h>
+int main()
+{
+	int n=7,r=1;
+	while(r<=4)
+	{
+		for(int i=1;i<=n;i++)
+		{
+			printf("%d",i );
+		}
+		printf("\n");
+		n-=2;
+		r++;
+	}
+}
+
