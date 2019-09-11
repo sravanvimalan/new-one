@@ -141,3 +141,28 @@ int main()
 	
     
 }
+/*
+1
+21
+321
+4321
+54321
+code for above pattern
+*/
+# include<stdio.h>
+int main()
+{
+	int n=1,r=0,lim=1;
+	while(r<5)
+	{
+		lim=r+1;
+		for(int i=lim;i>=n;i--)
+		{
+			printf("%d",i );
+		}
+		printf("\n");
+		r++;
+	}
+	
+    
+}
