@@ -190,3 +190,27 @@ int main()
 	}
     
 }
+/*
+1
+22
+333
+4444
+55555
+code for above pattern
+*/
+# include<stdio.h>
+int main()
+{
+	int n=1,r=5;
+	while(r>0)
+	{
+		for(int i=1;i<=n;i++)
+		{
+			printf("%d",n );
+		}
+		printf("\n");
+		n++;
+		r--;
+	}
+    
+}
