@@ -166,3 +166,27 @@ int main()
 	
     
 }
+/*
+5
+54
+543
+5432
+54321
+code for above pattern
+*/
+# include<stdio.h>
+int main()
+{
+	int e=5,r=1,s=5;
+	while(r<=5)
+	{
+		for(int i=s;i>=e;i--)
+		{
+			printf("%d",i );
+		}
+		printf("\n");
+		e--;
+		r++;
+	}
+    
+}
