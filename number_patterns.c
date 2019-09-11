@@ -93,3 +93,26 @@ int main()
 
 	}
 }
+/*
+1
+12
+123
+1234
+12345
+code for above pattern
+*/
+# include<stdio.h>
+int main()
+{
+	int no=1,r=1;
+    while(r<=5)
+    {
+    	for(int i=1;i<=no;i++)
+    	{
+    		printf("%d",i);
+    	}
+    	printf("\n");
+    	no++;
+    	r++;
+    }
+}
