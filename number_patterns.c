@@ -116,3 +116,28 @@ int main()
     	r++;
     }
 }
+/*
+5
+45
+345
+2345
+12345
+code for above pattern
+*/
+# include<stdio.h>
+int main()
+{
+	int n=5,r=5,lim=5;
+	while(r>0)
+	{
+		for(int i=n;i<=lim;i++)
+		{
+			printf("%d",i );
+		}
+		printf("\n");
+		n--;
+		r--;
+	}
+	
+    
+}
