@@ -214,3 +214,117 @@ int main()
 	}
     
 }
+/*
+5
+44
+333
+2222
+11111
+code for above pattern
+*/
+# include<stdio.h>
+int main()
+{
+	int n=1,r=5,p=5;
+	while(r>0)
+	{
+		for(int i=1;i<=n;i++)
+		{
+			printf("%d",p );
+		}
+		n++;
+		printf("\n");
+		p--;
+		r--;	
+	}
+    
+}
+/*
+55555
+4444
+333
+22
+1
+code for above pattern
+*/
+# include<stdio.h>
+int main()
+{
+	int n=5,r=5,p=5;
+	while(r>0)
+	{
+		for(int i=1;i<=n;i++)
+		{
+			printf("%d",p );
+		}
+		n--;
+		printf("\n");
+		p--;
+		r--;	
+	}
+    
+}
+/*
+11111
+2222
+333
+44
+5
+code for above pattern
+*/
+# include<stdio.h>
+int main()
+{
+	int n=5,r=5,p=1;
+	while(r>0)
+	{
+		for(int i=1;i<=n;i++)
+		{
+			printf("%d",p );
+		}
+		n--;
+		printf("\n");
+		p++;
+		r--;	
+	}
+    
+}
+/*
+12345
+4321
+123
+21
+1
+code for above pattern
+*/
+# include<stdio.h>
+int main()
+{
+	int r=5,n=0;
+	while(r>0)
+	{
+		if(r%2 == 1)
+		{
+		
+			for(int i=1;i<=r;i++)
+			{
+				n++;
+				printf("%d",n );
+				
+			}
+			printf("\n");
+		}
+		else
+		{
+			n=n-1;
+			for(int i=n;i>0;i--)
+			{
+				printf("%d",n);
+				n--;
+			}
+			printf("\n");
+		}
+		r--;
+	}
+    
+}
