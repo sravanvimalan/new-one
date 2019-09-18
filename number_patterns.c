@@ -350,4 +350,135 @@ int main()
 		r++;
 	}
 }
+/*
+1
+01
+101
+0101
+code for above pattern
+*/
+# include<stdio.h>
+int main()
+{
+	for(int i=1;i<=4;i++)
+	{
+		for(int j=i;j>=1;j--)
+		{
+			printf("%d",j%2);
+		}
+		printf("\n");
+	}
+}
+/*
+1
+2 4
+1 3 5
+2 4 6 8
+1 3 5 7 9
+code for above pattern
+*/
+# include<stdio.h>
+int main()
+{
+	int swap=1;
+	while(swap<6)
+   {
+		if(swap%2==1)
+		{
+			for(int j=1;j<(2*swap);j++)
+				{
+					if(j%2==1)
+					printf("%d ",j );
+
+				}
+				printf("\n");
+		swap++;
+
+	}
+	else
+	{
+		for(int j=2;j<=(2*swap);j++)
+		{
+				if(j%2==0)
+				printf("%d ",j );
+		}
+			printf("\n");
+			swap++;
+	}
+  }
+}
+/*
+55555
+45555
+34555
+23455
+12345
+code for above pattern
+*/
+# include<stdio.h>
+int main()
+{
+	int n=5;
+	for(int i=1;i<=5;i++)
+	{
+		for(int j=1;j<=5;j++)
+		{
+			printf("%d",n );
+			if(n<5)
+				n++;
+		}
+		printf("\n");
+		n=n-i;
+	}
+
+}
+/*
+1
+23
+456
+78910
+
+code for above pattern
+*/
+# include<stdio.h>
+int main()
+{
+	int n=1;
+	for(int i=1;i<=4;i++)
+	{
+		for(int j=1;j<=i;j++)
+		{
+			printf("%d",n);
+			n++;
+		}
+		printf("\n");
+	}
+
+}
+/*
+1
+10
+101
+1010
+10101
+
+code for above pattern
+*/
+# include<stdio.h>
+int main()
+{
+	int n=1;
+	for(int i=1;i<=5;i++)
+	{
+		for(int j=1;j<=i;j++)
+		{
+			printf("%d",n%2);
+			n++;
+		}
+		printf("\n");
+		n=1;
+	}
+
+}
+
 
