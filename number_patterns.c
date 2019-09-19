@@ -480,5 +480,83 @@ int main()
 	}
 
 }
+/*
+1 
+2 6 
+3 7 10 
+4 8 11 13 
+5 9 12 14 15
+code for above pattern
+*/
+# include<stdio.h>
+int main()
+{
+	int add=4;
+	for(int i=0;i<5;i++)
+	{
+		int n=1;
+		n=n+i;
+		for(int j=0;j<=i;j++)
+		{	
+			printf("%d ",n);
+			n=n+add;
+			add--;
+		}
+		add=4;
+		printf("\n");
+	}
+}
+/*
+1
+123
+12345
+1234567
+
+code for above pattern
+*/
+# include<stdio.h>
+int main()
+{
+	int n=0,num=1;
+	for(int i=1;i<=4;i++)
+	{
+		for(int j=1;j<=(i+n);j++)
+		{
+			printf("%d",num);
+			num++;
+		}
+		printf("\n");
+		num=1;
+		n++;
+	}
+}
+/*
+   1
+  2 3 4
+5 6 7 8 9
+
+code for above pattern
+*/
+# include<stdio.h>
+int main()
+{
+	int space=3,add=0,no=1;
+	for(int i=1;i<=3;i++)
+	{
+		for(int j=1;j<space;j++)
+		{
+			printf(" ");
+		}
+		space--;
+		for(int k=0;k<(i+add);k++)
+		{
+			printf("%d ",no);
+			no++;
+		}
+		add++;
+		printf("\n");
+	}
+}
+
 
 
