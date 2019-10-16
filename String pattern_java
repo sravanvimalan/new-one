@@ -143,3 +143,29 @@ class Main
 		}
 	}
 }
+/*
+EDCBA
+DCBA
+CBA
+BA
+A
+code given below:
+*/
+
+class Main
+{
+	public static void main(String[] args)
+	{
+		int k=0;
+		for(int i=5;i>0;i--)
+		{
+			char a=(char)('E'-k);
+			k++;
+			for(int j=0;j<i;j++)
+			{
+				System.out.print((char)(a-j));
+			}
+			System.out.println();
+		}
+	}
+}
