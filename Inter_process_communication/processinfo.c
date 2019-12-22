@@ -5,8 +5,8 @@ sravan@sravan-DL-IPMSB-H61:~$ ./a.out
 my process id:4927
 my parent process id:4379
 cross verification of pid by executing process commands on shell
+F S UID        PID  PPID  C PRI  NI ADDR SZ WCHAN  STIME TTY          TIME CMD
 0 S sravan    4927  4379  0  80   0 -  1126 wait   19:58 pts/0    00:00:00 ./a.o
-0 S sravan    4928  4927  0  80   0 -  1156 wait   19:58 pts/0    00:00:00 sh -c
 program:
 */
                                      //declare standard libraries
