@@ -7,3 +7,14 @@ print("The square root of %0.3f is %0.3f "%(num,result))
 # enter a number 16
 # The square root of 16.000 is 4.000 
 
+# for finding the real or complex numbers
+# import cmath module
+import cmath
+x = eval(input("enter the complex number"))
+realpart = float(x.real ** 0.5)
+imgpart = float(x.imag ** 0.5)
+print("square root of {0} is {1}+{2}j".format(x,realpart,imgpart)
+
+#input amd output
+#enter the complex number25+16j
+#square root of (25+16j) is %0.3f+4.0j 5.0
