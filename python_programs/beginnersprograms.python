@@ -1,0 +1,9 @@
+# read a number
+num = float(input("enter a number "))
+result  = num ** 0.5
+print("The square root of %0.3f is %0.3f "%(num,result)) 
+
+# input and output:
+# enter a number 16
+# The square root of 16.000 is 4.000 
+
