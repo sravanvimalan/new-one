@@ -11,11 +11,10 @@ public class Palindrome
 		i=0;j=str.length()-1;
 		while(i<=j)
 		{
-           // System.out.println(str.charAt(i)+"\n"+str.charAt(j)+"\n");
 			if(str.charAt(i) != str.charAt(j))
 				return false;
-            i++;
-            j--;
+           		 i++;
+          		 j--;
 		}
         return true;
 	}
