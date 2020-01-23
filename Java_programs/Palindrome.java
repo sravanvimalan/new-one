@@ -21,7 +21,7 @@ public class Palindrome
 	public static void main(String[] args)
 	{
 		String str="appa";
-        Palindrome obj = new Palindrome();
+        	Palindrome obj = new Palindrome();
 		if(obj.palin(str))
 			System.out.println("Yes");
 		else
