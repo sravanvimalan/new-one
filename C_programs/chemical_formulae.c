@@ -1,4 +1,15 @@
 /*
+Problem description:
+Given a chemical formula as a string, the task is to get the count of atoms in this chemical formula.
+1. No need to verify if the input is a valid chemical formula in all aspects.
+2. However, please validate if basic structure is followed. For example, an atom can be represented using:
+	a. A capital letter. (Eg: O)
+	b. A capital letter followed by a number (eg: H2)
+	c. Two letters where capital letter is followed by a small letter (eg: Na)
+	d. Two letters where a capital letter is followed by a small letter and number (eg: Fe2)
+3. A formula can have one or more atoms represented in it.
+
+input and output:
 sravan@sravan-DL-IPMSB-H61:~$ gcc test.c
 sravan@sravan-DL-IPMSB-H61:~$ ./a.out
 Fe     2
@@ -11,6 +22,7 @@ Na      1
 Cl      2
 Na      1
 O       2
+program:
 */
 # include<stdio.h>
 void main()
