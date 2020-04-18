@@ -43,6 +43,18 @@ Enter the distinct_count:
 Longest substring:[a,a,s,d,w,w,e]
 The longest substring with 5 distinct characters would be 7.
 
+NB && CON'S: *don't enter value of distint_count < count_of_distinct_variable_in_input_string.
+    	     *if input string has multiple substring have same distinct_count and length, it prints only one substring-
+	      (may be the first one).
+	   
+	 Overcome Con's
+	 *write function to count the distinct elements and compare with given_distinct_count.
+	  if(distinct_elements > given_distinct_count)
+	  	print "substring not possible"
+	 *Second problem can overcome by print all the elements has 'distinct_count == max'
+	  we can get this value from the stack.
+	  
+	  I KNOW HOW TO DO THIS ...BUT NOW I DON'T HAVE TIME RIGHT NOW XD !!! HAPPY CODING !!!
 program:
 */
 
