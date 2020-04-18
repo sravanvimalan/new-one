@@ -49,7 +49,7 @@ program:
 # include<stdio.h>
 char distinct_var_stack_1[100];
 int start_end_index_count_stack_2[100],top1=-1,top2=-1,count=0,start_index,end_index,k=0,i,distinct_count,len=0;
-char given_string[9]; 
+char given_string[100]; 
 void print_distinct_stack(int top)
 {
 	int i=0;
