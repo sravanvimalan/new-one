@@ -1,6 +1,91 @@
 /* Quick Find algorithm 
   con's
   *It's a Quadratic algorithm:
+  
+compile and execute:
+
+sravan@sravan-DL-IPMSB-H61:~/Desktop$ javac QuickFind.java
+sravan@sravan-DL-IPMSB-H61:~/Desktop$ java QuickFind
+
+Enter the number of objects
+5
+press 1 : union
+press 2 : check_connectivity
+press 3 : exit
+
+1
+Enter Id 1:
+0
+Enter Id 2:
+4
+connected
+press 1 : union
+press 2 : check_connectivity
+press 3 : exit
+
+1
+Enter Id 1:
+2
+Enter Id 2:
+3
+connected
+press 1 : union
+press 2 : check_connectivity
+press 3 : exit
+
+1
+Enter Id 1:
+1
+Enter Id 2:
+3
+connected
+press 1 : union
+press 2 : check_connectivity
+press 3 : exit
+
+2
+Enter Id 1:
+1
+Enter Id 2:
+2
+They are Connected
+press 1 : union
+press 2 : check_connectivity
+press 3 : exit
+
+2
+Enter Id 1:
+0
+Enter Id 2:
+2
+They are not Connected
+press 1 : union
+press 2 : check_connectivity
+press 3 : exit
+
+1
+Enter Id 1:
+4
+Enter Id 2:
+2
+connected
+press 1 : union
+press 2 : check_connectivity
+press 3 : exit
+
+2
+Enter Id 1:
+0
+Enter Id 2:
+1
+They are Connected
+press 1 : union
+press 2 : check_connectivity
+press 3 : exit
+
+3
+
+program:
  */
  import java.util.*;
 class QuickFind
