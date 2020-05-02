@@ -7,7 +7,7 @@ program:
 
 */
 # include<stdio.h>
-int givenele[100]={1 ,3, 4 ,5},distinct_ele_count[100]={0},len_count_arr=0,k=0,count=0,n=4,most_repeative_ele=0;
+int givenele[100]={1 ,2, 2 ,5},distinct_ele_count[100]={0},len_count_arr=0,k=0,count=0,n=4,most_repeative_ele=0;
 int check(int ele)
 {
 	for(int i=0;i<k;i+=2)
