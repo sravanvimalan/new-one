@@ -1,4 +1,5 @@
 /*
+test case 1:
 Welcome to Guess Number Game...wish you good luck
 
 Do I know your name?
@@ -48,6 +49,80 @@ Guess the number?
 12
 You win
 
+test case 2:
+
+Welcome to Guess Number...wish you good luck
+
+Do I know your name?
+
+Sravan
+Hello Sravan
+
+shall we start the game ?
+press 1: start
+press 0: exit
+
+
+1
+ok game start..you have only 5 chances for guess! && guess value 1<=x<=20
+
+Guess the number?
+
+
+10
+Wrong 4 chances left
+
+Guess Higher
+
+Guess the number?
+
+
+3
+Wrong 3 chances left
+
+Guess Higher
+
+Guess the number?
+
+
+5
+Wrong 2 chances left
+
+Guess Higher
+
+Guess the number?
+
+
+6
+Wrong 1 chances left
+
+Guess Higher
+
+Guess the number?
+
+
+7
+Wrong 0 chances left
+
+Game Over
+
+test case 3:
+
+Welcome to Guess Number...wish you good luck
+
+Do I know your name?
+
+sravan
+Hello sravan
+
+shall we start the game ?
+press 1: start
+press 0: exit
+
+0
+Exit successfuly
+
+program:
 */package com.sravan;
 	import java.util.Scanner;
 	import java.util.Random;
