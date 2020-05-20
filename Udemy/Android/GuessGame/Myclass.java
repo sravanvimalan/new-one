@@ -55,8 +55,8 @@ Welcome to Guess Number...wish you good luck
 
 Do I know your name?
 
-Sravan
-Hello Sravan
+sravan
+Hello sravan
 
 shall we start the game ?
 press 1: start
@@ -68,43 +68,39 @@ ok game start..you have only 5 chances for guess! && guess value 1<=x<=20
 
 Guess the number?
 
-
 10
 Wrong 4 chances left
 
-Guess Higher
+Guess Lower
 
 Guess the number?
 
-
-3
+12
 Wrong 3 chances left
 
-Guess Higher
+Guess Lower
 
 Guess the number?
 
-
-5
+13
 Wrong 2 chances left
 
-Guess Higher
+Guess Lower
 
 Guess the number?
 
-
-6
+14
 Wrong 1 chances left
 
-Guess Higher
+Guess Lower
 
 Guess the number?
 
-
-7
+15
 Wrong 0 chances left
 
 Game Over
+The number was 3
 
 test case 3:
 
@@ -164,6 +160,7 @@ program:
 							{
 								sc.close();
 								System.out.println("Game Over");
+								System.out.println("The number was "+rand_no);
 								break;
 							}
 							if(no > rand_no)
