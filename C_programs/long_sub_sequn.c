@@ -1,6 +1,6 @@
 /*
 					Longest increasing sub sequence
-input and ouput:
+input and output:
 sravan@sravan-DL-IPMSB-H61:~$ gcc long_sub_sequn.c
 sravan@sravan-DL-IPMSB-H61:~$ ./a.out
 enter the lim
