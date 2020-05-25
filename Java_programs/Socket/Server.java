@@ -12,9 +12,9 @@ import java.net.ServerSocket;
 import java.net.Socket;
 import java.io.*;
 
-public class Main {
+public class Server {
 
-    public static void Server(String[] args) {
+    public static void main(String[] args) {
     //server socket
             try {
                 System.out.println("Waiting for clients");
