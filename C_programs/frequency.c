@@ -8,6 +8,7 @@ enter the lim:
 5
 enter the no:
 2 3 2 3 5
+0 2 2 0 1 
 program:
 */
 
