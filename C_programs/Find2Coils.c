@@ -63,22 +63,16 @@ void recursivefunctionforcoil1(int *ptr[4],int i , int j,int n,int lim)
 	//up
 	while(k<=lim)
 	{
-		if(i >= 0)
-		{
 			printf(" %d",ptr[i][j]);
 			i--;
-		}
 		k++;
 	}
 	k=1;
 	//right
 	while(k<=lim)
 	{
-		if(j < n)
-		{
 			printf(" %d",ptr[i][j]);
 			j++;
-		}
 		k++;
 	}
 	lim+=2;
@@ -86,35 +80,27 @@ void recursivefunctionforcoil1(int *ptr[4],int i , int j,int n,int lim)
 	//down
 	while(k<=lim)
 	{
-		if(i < n)
-		{
-			printf(" %d",ptr[i][j]);
+		   printf(" %d",ptr[i][j]);
 			i++;
 
-		}
+		
 		if((i+j) == (2 * (n-1)))
 		{
 			printf(" %d",ptr[i][j]);
 			return;
 		}
-
 		k++;
-
 	}
 	k=1;
 	//left
 	while(k<=lim)
 	{
-		if(j >= 0)
-		{
 			printf(" %d",ptr[i][j]);
 			j--;
-		}
 		k++;
 	}
 	lim+=2;
 	recursivefunctionforcoil1(ptr,i,j,n,lim);
-
 }
 void recursivefunctionforcoil2(int *ptr[4],int i , int j,int n,int lim)
 {
@@ -124,25 +110,16 @@ void recursivefunctionforcoil2(int *ptr[4],int i , int j,int n,int lim)
 	//down
 	while(k<=lim)
 	{
-		
-		if(i < n)
-		{
-			printf(" %d",ptr[i][j]);
-			i++;
-
-		}
+		printf(" %d",ptr[i][j]);
+		i++;
 		k++;
 	}
 	k=1;
 	//left
 	while(k<=lim)
 	{
-		if(j >= 0)
-		{
-
-			printf(" %d",ptr[i][j]);
-			j--;
-		}
+		printf(" %d",ptr[i][j]);
+		j--;
 		k++;
 	}
 	lim+=2;
@@ -150,11 +127,8 @@ void recursivefunctionforcoil2(int *ptr[4],int i , int j,int n,int lim)
 	//up
 	while(k<=lim)
 	{
-		if(i >= 0)
-		{
 			printf(" %d",ptr[i][j]);
 			i--;
-		}
 		if((i+j) == 0)
 		{
 			printf(" %d",ptr[i][j]);
@@ -166,11 +140,8 @@ void recursivefunctionforcoil2(int *ptr[4],int i , int j,int n,int lim)
 	//right
 	while(k<=lim)
 	{
-		if(j < n)
-		{
 			printf(" %d",ptr[i][j]);
 			j++;
-		}
 		k++;
 	}
 	lim+=2;
