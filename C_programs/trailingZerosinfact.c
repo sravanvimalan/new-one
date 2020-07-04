@@ -40,6 +40,16 @@ int main()
 		printf("enter positive number :( \n");
 		return 0;
 	}
+	if(num%10 < 5)
+		{
+			num -= num%10;
+		}
+	else
+		{
+			int incr=10;
+			incr -= num%10;
+			num += incr;
+		}
 	if((num%10 == 0 || num%10 == 5 )&& num/10 != 0)
 	{
 		while(num%10 == 0 || num%10 == 5)
@@ -61,14 +71,5 @@ int main()
 			printf("count:%ld\n",count);
 			return 0;
 		}
-	if(num%10 < 5)
-		{
-			num -= num%10;
-		}
-	else
-		{
-			int incr=10;
-			incr -= num%10;
-			num += incr;
-		}
+	
 }
