@@ -9,20 +9,22 @@ sravan@sravan-DL-IPMSB-H61:~$ ./a.out
 
 enter the number:
 10
-2
+count:2
 
 sravan@sravan-DL-IPMSB-H61:~$ ./a.out
+
 enter the number:
 7
 count:1
 
 sravan@sravan-DL-IPMSB-H61:~$ ./a.out
+
 enter the number:
 50
 count:12
 
-sravan@sravan-DL-IPMSB-H61:~$ gcc trailingZerosinfact.c
 sravan@sravan-DL-IPMSB-H61:~$ ./a.out
+
 enter the number:
 -1
 enter positive number :( 
