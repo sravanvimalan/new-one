@@ -23,7 +23,7 @@ Enter the word
 abcd
 Number of insertions required is 3
 
-
+program:
 */
 import java.util.Scanner;
 import java.util.HashMap;
@@ -54,10 +54,10 @@ class Min_insert_for_palinlform
 		}
 		 for (Character j : hashmap.keySet()) 
 		 {
-      		if(hashmap.get(j) % 2 == 1)
-      		{
-      			min_insert_count++;
-      		}
+      			if(hashmap.get(j) % 2 == 1)
+      			{
+      				min_insert_count++;
+      			}
   		 }
   		 if(min_insert_count == 0)
   		 {
@@ -67,6 +67,5 @@ class Min_insert_for_palinlform
   		 {
   		 	 System.out.println("Number of insertions required is "+(min_insert_count-1));
   		 }
-  		
-	}
+  	}
 }
