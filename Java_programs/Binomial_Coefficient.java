@@ -5,11 +5,7 @@ public class Binomial_Coefficient {
 	
 	 public static int c(int n,int x)
 	 {
-		if(x==0)
-		{	
-			return 1;
-		}
-		if(n==x)
+		if(x==0 || n==x)
 		{	
 			return 1;
 		}
